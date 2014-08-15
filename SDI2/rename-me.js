@@ -58,6 +58,19 @@ for (addInsNumber = 2; addInsNumber < addIns.length; addInsNumber ++){whatAddIns
 
 
 
+//procedure
+var didIBurnIt = function (overCooked){
+	var justCompletelyCooked = 5
+	if (justCompletelyCooked === timeCook){
+	console.log("Oh my god I actually haven't burned this one yet I better get this off the heat quick.");}
+	else
+	{console.log("Well darn time to start over I burned this one.");
+	}
+	};
+var takeItOffTheHeat = didIBurnIt(timeCook)
+
+
+
 
 
 
