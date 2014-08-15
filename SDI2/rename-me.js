@@ -71,6 +71,17 @@ var takeItOffTheHeat = didIBurnIt(timeCook)
 
 
 
+//Numbers
+
+var coolTime = function(timeOffHeat){
+	var tryNotToBurnSelf = (timeOffHeat- 1);
+	var testAgain = 2;
+	while(timeOffHeat > 1);
+	console.log("OW! That is hot I'll try again in " + testAgain + " minutes and hopefully it will have cooled down by then.");
+	timeOffHeat-=4
+	console.log("I think I can eat it now.");
+	return timeOffHeat};
+
 
 
 
