@@ -50,8 +50,8 @@ var whatAddIns = function (omlettesWanted, stuff){
 	var addInsChoice = stuff[addInsNumber]
 	var amountOfAddIns = addInsHandfulls[addInsNumber]
 	var allAddIns = 2
-	var perOmlette = 1 ;
-	console.log("Time to toss in " + allAddIns + " handfulls of " + addInsChoice + " to the omelettes. " + perOmlette + " handfull per omlette.")}
+	var perOmelette = 1 ;
+	console.log("Time to toss in " + allAddIns + " handfulls of " + addInsChoice + " to the omelettes. " + perOmelette + " handfull per omlette.")}
 	return stuff};
 for (addInsNumber = 2; addInsNumber < addIns.length; addInsNumber ++){whatAddIns(omlettesWanted, addIns);
 };
