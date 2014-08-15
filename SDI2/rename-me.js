@@ -30,4 +30,18 @@ var omlettesWanted = function(omlettes, hungry) {
 };
 var	manyManyOmlettes = omlettesWanted(numberOfOmlettes,superHungry)
 
+//String
+var startCooking = function(coveredOrStuffed, readyPan, cookTime){
+	var coveredOrStuffed = "stuffed";
+	var readyCook = true;
+	var cookTime = 5
+	var readyPan = "buttered and hot"
+	if (coveredOrStuffed === stuffedOrCovered && readyCook === true) 
+	{console.log("Well I'm going to make myself a " + stuffedOrCovered + " omelette. The pan is hot and buttered and I have to watch the clock because this cooks in " +cookTime+ " minutes.")}
+	else{console.log("Hmm I don't think my " + coveredOrStuffed + " omelette is ready to be cooked. Let me check to make sure the pan is " + readyPan + " first.")}
+	return coveredOrStuffed;
+};
+var letsGetCooking = startCooking(stuffedOrCovered, timeCook)
+
+
 
